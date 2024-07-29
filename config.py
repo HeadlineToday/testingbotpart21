@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7024971848:AAGGUw1gfoRdkU60nnREOiScaQb8gH2SXF4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "19277331"))
@@ -28,13 +28,13 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1196934318"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ayanalamgamingcodec1249:NW17578sO3tuF5P6@testinclusterbot2.9f0rmqv.mongodb.net/?retryWrites=true&w=majority&appName=testinclusterbot2")
+DB_NAME = os.environ.get("DATABASE_NAME", "ayanalamgamingcodec1249")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "1"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
